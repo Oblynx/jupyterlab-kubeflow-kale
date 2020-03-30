@@ -1417,7 +1417,7 @@ export class KubeflowKaleLeftPanel extends React.Component<IProps, IState> {
         updateVolumesSwitch={this.updateVolumesSwitch}
         autosnapshot={this.state.autosnapshot}
         updateAutosnapshotSwitch={this.updateAutosnapshotSwitch}
-        rokError={this.props.rokError}
+        rokError={IRPCError = null}
       />
     );
 
